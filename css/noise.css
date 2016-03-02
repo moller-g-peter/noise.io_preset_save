@@ -1,5 +1,10 @@
+html{
+  /*background: black;*/
+}
 body{
   background: grey;
+  background: url("../img/virus_bg.jpg") no-repeat fixed;
+  background-size: cover;
 }
 .waveformDropdownWidth,
 .LFOwaveformDropdownWidth{
@@ -9,13 +14,18 @@ body{
   color: #9A1717;
 }
 .savePresetsWholeForm{
-  background: #686868;
+  /*background: #686868;*/
+  background: grey;
   margin-left: 20%;
 }
 .saveMenu{
-  /*background: #686868;*/
   text-align: center;
 }
 .saveMenu a{
-  color: #265D8C;
+  /*background: grey;*/
+  color: #337ab7;
+  /*color: white;*/
+}
+.savePresetButton{
+  text-align: center;
 }

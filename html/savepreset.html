@@ -21,14 +21,14 @@
   <!-- BODY TAG -->
   <body>      
         <div class="saveMenu">
-          <h4><a href="loadpreset.html">Load presets</a></h4>
+          <h4><a href="loadpreset.html"><strong>LOAD PRESETS</strong></a></h4>
         </div>        
 
 
 
         <form class="navbar-form navbar-left savePresetsWholeForm" role="songPreset">
           <h3 class="presetInputHeaders">Presets</h3>
-          <div class="form-group">
+          <div class="form-group form-groupMain">
             <!-- <input type="number" name="quantity" min="1" max="5"> -->
             <label for="mainPreset">Main preset:</label><br>
             <input type="text" class="form-control" placeholder="Song name" required><br>
@@ -44,7 +44,7 @@
 
 
           <h3 class="presetInputHeaders">Sound parameters</h3>
-          <div class="form-group">
+          <div class="form-group form-groupBrother">
             <label for="brotherParameters">Brother:</label><br>
             <!-- <input type="text" class="form-control" placeholder="Wave" required><br> -->
             <select class="form-control waveformDropdownWidth">
@@ -79,7 +79,7 @@
             <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
-          <div class="form-group">
+          <div class="form-group form-groupSister">
             <label for="sisterParameters">Sister:</label><br>
             <input type="text" class="form-control" placeholder="Wave" required><br>
             <input type="number" class="form-control" placeholder="Ratio" required><br>
@@ -92,7 +92,7 @@
             <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
-          <div class="form-group">
+          <div class="form-group form-groupFilter">
             <label for="filterParameters">Filter:</label><br>
             <input type="text" class="form-control" placeholder="LowPass" required><br>
             <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
@@ -108,7 +108,7 @@
             <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
-          <div class="form-group">
+          <div class="form-group form-groupNoizer">
             <label for="noiseParameters">Noizer:</label><br>
             <input type="text" class="form-control" placeholder="Cutoff" required><br>
             <input type="number" class="form-control" placeholder="Res" required><br>
@@ -128,7 +128,7 @@
 
 
           <h3 class="presetInputHeaders">Stereo parameters</h3>
-          <div class="form-group">
+          <div class="form-group form-groupStereo">
             <input type="number" class="form-control" placeholder="Pan" required><br>
             <input type="number" class="form-control" placeholder="Stereo diff" required><br>
             <input type="radio" class="form-control" name="leftRight" required> L->R<br>
@@ -142,7 +142,7 @@
 
 
           <h3 class="presetInputHeaders">Delay parameters</h3>
-          <div class="form-group">
+          <div class="form-group form-groupDelay1">
             <label for="noiseParameters">Delay 1:</label><br>
             <input type="number" class="form-control" placeholder="Delay" required><br>
             <input type="number" class="form-control" placeholder="Pan" required><br>
@@ -151,7 +151,7 @@
             <input type="number" class="form-control" placeholder="Feedback" required><br>
             <input type="number" class="form-control" placeholder="Delay 1 level" required>
           </div>
-          <div class="form-group">
+          <div class="form-group form-groupDelay2">
             <label for="noiseParameters">Delay 2:</label><br>
             <input type="number" class="form-control" placeholder="Delay" required><br>
             <input type="number" class="form-control" placeholder="Pan" required><br>
@@ -165,14 +165,14 @@
 
 
           <h3 class="presetInputHeaders">Chorus/flanger/phaser parameters</h3>
-          <div class="form-group">
+          <div class="form-group form-groupChorus">
             <label for="noiseParameters">Chorus/flanger:</label><br>
             <input type="number" class="form-control" placeholder="Modulation depth" required><br>
             <input type="number" class="form-control" placeholder="Delay" required><br>
             <input type="number" class="form-control" placeholder="Frequency" required><br>
             <input type="number" class="form-control" placeholder="Chorus/flanger level" required>
           </div>
-          <div class="form-group">
+          <div class="form-group form-groupPhaser">
             <label for="noiseParameters">Phaser:</label><br>
             <input type="number" class="form-control" placeholder="Frequency" required><br>
             <input type="number" class="form-control" placeholder="Depth" required><br>
@@ -183,7 +183,7 @@
 
 
           <h3 class="presetInputHeaders">Distortion parameters</h3>
-          <div class="form-group">
+          <div class="form-group form-groupDistortion">
             <label for="noiseParameters">Bit crusher:</label><br>
             <input type="number" class="form-control" placeholder="Bits" required><br>
             <input type="number" class="form-control" placeholder="Sample rate" required>
@@ -197,7 +197,7 @@
 
 
           <h3 class="presetInputHeaders">Sequencer parameters</h3>
-          <div class="form-group">
+          <div class="form-group form-groupSequencer">
             <input type="number" class="form-control" placeholder="Length" required><br>
             <input type="number" class="form-control" placeholder="Change" required><br>
             <input type="number" class="form-control" placeholder="Swing" required><br>
@@ -329,8 +329,10 @@
           <hr>
 
 
-
-          <button type="submit" class="btn btn-default">Submit</button>
+          <div class="form-actions savePresetButton">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+          <hr>
         </form>
     <script type="text/javascript" src="js/noise.js"></script>
   </body>
