@@ -32,7 +32,7 @@
         <!-- <input type="number" name="quantity" min="1" max="5"> -->
         <label for="mainPreset">Main preset:</label><br>
         <input type="text" class="form-control" placeholder="Song name" required><br>
-        <input type="number" class="form-control" placeholder="Pitch" required><br>
+        <input type="text" class="form-control" placeholder="Pitch" required><br>
         <input type="number" class="form-control" placeholder="Level" required><br>
         <input type="number" class="form-control" placeholder="BPM" required><br>
         <input type="number" class="form-control" placeholder="Glide" required><br>
@@ -68,7 +68,7 @@
           <option value="exponentionalRampDown">Expo. Ramp down</option>
           <option value="noise">Noise</option>
         </select><br>
-        <!-- alla vågformer ligger i "waveforms.txt" -->
+        <!-- alla namn på vågformer ligger i "waveforms.txt" -->
         <input type="number" class="form-control" placeholder="Ratio" required><br>
         <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
         <input type="number" class="form-control" placeholder="Detune" required><br>
@@ -166,10 +166,30 @@
 
       <h3 class="presetInputHeaders">Chorus/flanger/phaser parameters</h3>
       <div class="form-group">
+        <label for="noiseParameters">Chorus/flanger:</label><br>
+        <input type="number" class="form-control" placeholder="Modulation depth" required><br>
+        <input type="number" class="form-control" placeholder="Delay" required><br>
+        <input type="number" class="form-control" placeholder="Frequency" required><br>
+        <input type="number" class="form-control" placeholder="Chorus/flanger level" required>
+      </div>
+      <div class="form-group">
+        <label for="noiseParameters">Phaser:</label><br>
+        <input type="number" class="form-control" placeholder="Frequency" required><br>
+        <input type="number" class="form-control" placeholder="Depth" required><br>
+        <input type="number" class="form-control" placeholder="Phaser level" required>
       </div>
       <hr>
+
+
+
       <h3 class="presetInputHeaders">Distortion parameters</h3>
       <div class="form-group">
+        <label for="noiseParameters">Bit crusher:</label><br>
+        <input type="number" class="form-control" placeholder="Bits" required><br>
+        <input type="number" class="form-control" placeholder="Sample rate" required>
+      </div>
+      <div class="form-group">
+        <label for="noiseParameters">Distortion:</label><br>
         <input type="number" class="form-control" placeholder="Distortion level" required>
       </div>
       <hr>
@@ -227,16 +247,84 @@
 
       <h3 class="presetInputHeaders">LFO/Axis parameters</h3>
       <div class="form-group">
-        <label for="AxisParameters">LFO/Axis parameters 1:</label><br>
+        <label for="AxisParameters">Axis parameters 1:</label><br>
         <input type="text" class="form-control" placeholder="Synth parameter" required><br>
         <input type="number" class="form-control" placeholder="Start value" required><br>
         <input type="number" class="form-control" placeholder="End value" required>
       </div>
       <div class="form-group">
-        <label for="AxisParameters">LFO/Axis parameters 2:</label><br>
+        <label for="AxisParameters">Axis parameters 2:</label><br>
         <input type="text" class="form-control" placeholder="Synth parameter" required><br>
         <input type="number" class="form-control" placeholder="Start value" required><br>
         <input type="number" class="form-control" placeholder="End value" required>
+      </div>
+      <hr>
+
+      <!-- Expo. = exponential... -->
+
+      <h3 class="presetInputHeaders">LFO parameters</h3>
+      <div class="form-group">
+        <label for="AxisParameters">LFO parameters 1:</label><br>
+        <input type="text" class="form-control" placeholder="Parameter to modulate" required><br>
+        <input type="checkbox" class="form-control" name="startOver" required> Start over<br>
+        <input type="radio" class="form-control" name="LFOFreq1" required> Freq Hz<br>
+        <input type="radio" class="form-control" name="LFOFreq1" required> Freq beats<br>
+        <select class="form-control LFOwaveformDropdownWidth">
+          <option value="sine">Sine 1</option>
+          <option value="sineDouble">Sine 2</option>
+          <option value="pulse">Exponential ramp down</option>
+          <option value="pulseDouble">Segmental up</option>
+          <option value="triangle">Segmental down</option>
+          <option value="triangleDouble">Catenary up</option>
+          <option value="sawtooth">Catenary down</option>
+          <option value="sawtoothDouble">Sine (low/I)</option>
+          <option value="exponentionalRampUpDown">Sine (low/II)</option>
+          <option value="valve">Exponential ramp up</option>
+          <option value="organ">Exp.ramp up(low/ -)</option>
+          <option value="positiveSine">Exp.ramp dwn(low/ -) </option>
+          <option value="chime">Exp.ramp up(low/ I)</option>
+          <option value="robot">Exp.ramp up(low/ II)</option>
+          <option value="doublePositiveSine">Sawtooth dwn</option>
+          <option value="randomPulse">Sawtooth up</option>
+          <option value="randomSine">Sawtooth down (low)</option>
+          <option value="exponentionalRampDown">Sawtooth up (low)</option>
+          <option value="noise">Sine 3</option>
+          <option value="noise">Sine 4</option>
+          <option value="noise">Square 1</option>
+          <option value="noise">Square 2</option>
+          <option value="noise">Trapezoid up</option>
+          <option value="noise">Trapezoid down</option>
+          <option value="noise">Triangle up (-)</option>
+          <option value="noise">Triangle down (-)</option>
+          <option value="noise">Triangle up (low)</option>
+          <option value="noise">Triangle down (low)</option>
+        </select><br>
+
+
+
+        <input type="number" class="form-control" placeholder="Frequency" required><br>
+        <input type="text" class="form-control" placeholder="LFO 1 impact" required>
+      </div>
+      <div class="form-group">
+        <label for="AxisParameters">LFO parameters 2:</label><br>
+        <input type="text" class="form-control" placeholder="Parameter to modulate" required><br>
+        <input type="checkbox" class="form-control" name="startOver" required> Start over<br>
+        <input type="radio" class="form-control" name="LFOFreq2" required> Freq Hz<br>
+        <input type="radio" class="form-control" name="LFOFreq2" required> Freq beats<br>
+
+
+
+        <input type="number" class="form-control" placeholder="Frequency" required><br>
+        <input type="text" class="form-control" placeholder="LFO 2 impact" required>
+      </div>
+      <div class="form-group">
+        <label for="AxisParameters">S & H editor:</label><br>
+        <input type="text" class="form-control" placeholder="Parameter to modulate" required><br>
+        <input type="checkbox" class="form-control" name="startOver" required> Start over<br>
+        <input type="radio" class="form-control" name="shFreq" required> Freq Hz<br>
+        <input type="radio" class="form-control" name="shFreq" required> Freq beats<br>
+        <input type="text" class="form-control" placeholder="Frequency" required><br>
+        <input type="text" class="form-control" placeholder="S&H impact" required>
       </div>
       <hr>
 

@@ -2,9 +2,13 @@ body{
   background: grey;
 }
 
-.waveformDropdownWidth{
+.waveformDropdownWidth,
+.LFOwaveformDropdownWidth{
   width: 100% !important;
 }
+/*.LFOwaveformDropdownWidth{
+  width: 50% !important;
+}*/
 
 .presetInputHeaders{
   color: #9A1717;
