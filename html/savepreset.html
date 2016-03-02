@@ -1,0 +1,247 @@
+<html>
+  <head> 
+    <title>Noise.io preset save</title>
+    <meta charset="UTF-8">
+
+    <!-- Includes: JavaScript -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    <!-- Includes: CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/noise.css">
+  </head>
+
+
+
+
+  <!-- BODY TAG -->
+  <body>
+    <!-- <canvas id="myCanvas" width="56" height="56" style="border:2px solid #d3d3d3;"></canvas> -->
+
+    <form class="navbar-form navbar-left" role="songPreset">
+      <h3 class="presetInputHeaders">Presets</h3>
+      <div class="form-group">
+        <!-- <input type="number" name="quantity" min="1" max="5"> -->
+        <label for="mainPreset">Main preset:</label><br>
+        <input type="text" class="form-control" placeholder="Song name" required><br>
+        <input type="number" class="form-control" placeholder="Pitch" required><br>
+        <input type="number" class="form-control" placeholder="Level" required><br>
+        <input type="number" class="form-control" placeholder="BPM" required><br>
+        <input type="number" class="form-control" placeholder="Glide" required><br>
+        <input type="number" class="form-control" placeholder="Semi" required><br>
+        <input type="number" class="form-control" placeholder="Cents" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">Sound parameters</h3>
+      <div class="form-group">
+        <label for="brotherParameters">Brother:</label><br>
+        <!-- <input type="text" class="form-control" placeholder="Wave" required><br> -->
+        <select class="form-control waveformDropdownWidth">
+          <option value="sine">Sine</option>
+          <option value="sineDouble">Sine (double)</option>
+          <option value="pulse">Pulse</option>
+          <option value="pulseDouble">Pulse (double)</option>
+          <option value="triangle">Triangle</option>
+          <option value="triangleDouble">Triangle (double)</option>
+          <option value="sawtooth">Sawtooth</option>
+          <option value="sawtoothDouble">Sawtooth (double)</option>
+          <option value="exponentionalRampUpDown">Expo. ramp up/down</option>
+          <option value="valve">Valve</option>
+          <option value="organ">Organ</option>
+          <option value="positiveSine">Positive sine</option>
+          <option value="chime">Chime</option>
+          <option value="robot">Robot</option>
+          <option value="doublePositiveSine">Positive sine (double)</option>
+          <option value="randomPulse">Random pulse</option>
+          <option value="randomSine">Random sine</option>
+          <option value="exponentionalRampDown">Expo. Ramp down</option>
+          <option value="noise">Noise</option>
+        </select><br>
+        <!-- alla vågformer ligger i "waveforms.txt" -->
+        <input type="number" class="form-control" placeholder="Ratio" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Detune" required><br>
+        <input type="number" class="form-control" placeholder="Brother level" required><br>
+        <input type="number" class="form-control" placeholder="Attack" required><br>
+        <input type="number" class="form-control" placeholder="Decay" required><br>
+        <input type="number" class="form-control" placeholder="Sustain" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Release" required>
+      </div>
+      <div class="form-group">
+        <label for="sisterParameters">Sister:</label><br>
+        <input type="text" class="form-control" placeholder="Wave" required><br>
+        <input type="number" class="form-control" placeholder="Ratio" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Detune" required><br>
+        <input type="number" class="form-control" placeholder="Sister level" required><br>
+        <input type="number" class="form-control" placeholder="Attack" required><br>
+        <input type="number" class="form-control" placeholder="Decay" required><br>
+        <input type="number" class="form-control" placeholder="Sustain" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Release" required>
+      </div>
+      <div class="form-group">
+        <label for="filterParameters">Filter:</label><br>
+        <input type="text" class="form-control" placeholder="LowPass" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="text" class="form-control" placeholder="HighPass" required><br>
+        <input type="number" class="form-control" placeholder="Filters 1/2 ratio" required><br>
+        <input type="number" class="form-control" placeholder="Cutoff" required><br>
+        <input type="number" class="form-control" placeholder="Res" required><br>
+        <input type="number" class="form-control" placeholder="B/W" required><br>
+        <input type="number" class="form-control" placeholder="Filter level" required><br>
+        <input type="number" class="form-control" placeholder="Attack" required><br>
+        <input type="number" class="form-control" placeholder="Decay" required><br>
+        <input type="number" class="form-control" placeholder="Sustain" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Release" required>
+      </div>
+      <div class="form-group">
+        <label for="noiseParameters">Noizer:</label><br>
+        <input type="text" class="form-control" placeholder="Cutoff" required><br>
+        <input type="number" class="form-control" placeholder="Res" required><br>
+        <input type="number" class="form-control" placeholder="Noise filter level" required><br>
+        <input type="number" class="form-control" placeholder="Limit hard" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Limit lev" required><br>
+        <input type="number" class="form-control" placeholder="Noizer level" required><br>
+        <input type="number" class="form-control" placeholder="Attack" required><br>
+        <input type="number" class="form-control" placeholder="Decay" required><br>
+        <input type="number" class="form-control" placeholder="Sustain" required><br>
+        <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+        <input type="number" class="form-control" placeholder="Release" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">Stereo parameters</h3>
+      <div class="form-group">
+        <input type="number" class="form-control" placeholder="Pan" required><br>
+        <input type="number" class="form-control" placeholder="Stereo diff" required><br>
+        <input type="radio" class="form-control" name="leftRight" required> L->R<br>
+        <input type="radio" class="form-control" name="leftRight" required> R->L<br>
+        <input type="number" class="form-control" placeholder="Low" required><br>
+        <input type="number" class="form-control" placeholder="Mid" required><br>
+        <input type="number" class="form-control" placeholder="High" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">Delay parameters</h3>
+      <div class="form-group">
+        <label for="noiseParameters">Delay 1:</label><br>
+        <input type="number" class="form-control" placeholder="Delay" required><br>
+        <input type="number" class="form-control" placeholder="Pan" required><br>
+        <input type="radio" class="form-control" name="delay1" required> Beats<br>
+        <input type="radio" class="form-control" name="delay1" required> Seconds<br>
+        <input type="number" class="form-control" placeholder="Feedback" required><br>
+        <input type="number" class="form-control" placeholder="Delay 1 level" required>
+      </div>
+      <div class="form-group">
+        <label for="noiseParameters">Delay 2:</label><br>
+        <input type="number" class="form-control" placeholder="Delay" required><br>
+        <input type="number" class="form-control" placeholder="Pan" required><br>
+        <input type="radio" class="form-control" name="delay2" required> Beats<br>
+        <input type="radio" class="form-control" name="delay2" required> Seconds<br>
+        <input type="number" class="form-control" placeholder="Feedback" required><br>
+        <input type="number" class="form-control" placeholder="Delay 2 level" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">Chorus/flanger/phaser parameters</h3>
+      <div class="form-group">
+      </div>
+      <hr>
+      <h3 class="presetInputHeaders">Distortion parameters</h3>
+      <div class="form-group">
+        <input type="number" class="form-control" placeholder="Distortion level" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">Sequencer parameters</h3>
+      <div class="form-group">
+        <input type="number" class="form-control" placeholder="Length" required><br>
+        <input type="number" class="form-control" placeholder="Change" required><br>
+        <input type="number" class="form-control" placeholder="Swing" required><br>
+        <input type="number" class="form-control" placeholder="Measure" required><br>
+        <input type="number" class="form-control" placeholder="Time signature" required><br>
+        <input type="number" class="form-control" placeholder="Glide" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">Patterns</h3>
+      <div class="form-group">
+
+        <!-- "Patterns/Length" ska påverkas av "Sequencer parameters/Length" -->
+
+        <label for="a-pattern">A:</label><br>
+        <input type="text" class="form-control" placeholder="Note" required><br>
+        <!-- <input type="text" class="form-control" placeholder="Length" required><br> -->
+        <input type="text" class="form-control" placeholder="Volume" required><br>
+        <input type="text" class="form-control" placeholder="Pitch" required>
+      </div>
+      <div class="form-group">
+        <label for="b-pattern">B:</label><br>
+        <input type="text" class="form-control" placeholder="Note" required><br>
+        <!-- <input type="text" class="form-control" placeholder="Length" required><br> -->
+        <input type="text" class="form-control" placeholder="Volume" required><br>
+        <input type="text" class="form-control" placeholder="Pitch" required>
+      </div>
+      <div class="form-group">
+        <label for="c-pattern">C:</label><br>
+        <input type="text" class="form-control" placeholder="Note" required><br>
+        <!-- <input type="text" class="form-control" placeholder="Length" required><br> -->
+        <input type="text" class="form-control" placeholder="Volume" required><br>
+        <input type="text" class="form-control" placeholder="Pitch" required>
+      </div>
+      <div class="form-group">
+        <label for="d-pattern">D:</label><br>
+        <input type="text" class="form-control" placeholder="Note" required><br>
+        <!-- <input type="text" class="form-control" placeholder="Length" required><br> -->
+        <input type="text" class="form-control" placeholder="Volume" required><br>
+        <input type="text" class="form-control" placeholder="Pitch" required>
+      </div>
+      <hr>
+
+
+
+      <h3 class="presetInputHeaders">LFO/Axis parameters</h3>
+      <div class="form-group">
+        <label for="AxisParameters">LFO/Axis parameters 1:</label><br>
+        <input type="text" class="form-control" placeholder="Synth parameter" required><br>
+        <input type="number" class="form-control" placeholder="Start value" required><br>
+        <input type="number" class="form-control" placeholder="End value" required>
+      </div>
+      <div class="form-group">
+        <label for="AxisParameters">LFO/Axis parameters 2:</label><br>
+        <input type="text" class="form-control" placeholder="Synth parameter" required><br>
+        <input type="number" class="form-control" placeholder="Start value" required><br>
+        <input type="number" class="form-control" placeholder="End value" required>
+      </div>
+      <hr>
+
+
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+
+    <script type="text/javascript" src="js/noise.js"></script>
+  </body>
+</html>

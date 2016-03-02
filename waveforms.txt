@@ -17,3 +17,34 @@
         randomSine,
         exponentionalRampDown,
         noise
+
+
+
+
+
+
+               <!--  <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle col-lg-12" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Wave
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Pulse</a></li>
+            <li><a href="#">Pulse (double)</a></li>
+            <li><a href="#">Triangle</a></li>
+            <li><a href="#">Triangle (double)</a></li>
+            <li><a href="#">Sawtooth</a></li>
+            <li><a href="#">Sawtooth (double)</a></li>
+            <li><a href="#">Expo. ramp up/down</a></li>
+            <li><a href="#">Valve</a></li>
+            <li><a href="#">Organ</a></li>
+            <li><a href="#">Positive sine</a></li>
+            <li><a href="#">Chime</a></li>
+            <li><a href="#">Robot</a></li>
+            <li><a href="#">Positive sine (double)</a></li>
+            <li><a href="#">Random pulse</a></li>
+            <li><a href="#">Random sine</a></li>
+            <li><a href="#">Expo. Ramp down</a></li>
+            <li><a href="#">Noise</a></li>
+          </ul>
+        </div> -->
