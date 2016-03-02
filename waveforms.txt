@@ -1,0 +1,19 @@
+        
+
+
+
+        sine, sineDouble, 
+        pulse, pulseDouble, 
+        triangle, triangleDouble, 
+        sawtooth, sawtoothDouble,
+        exponentionalRampUpDown,
+        valve,
+        organ,
+        positiveSine,
+        chime,
+        robot,
+        doublePositiveSine,
+        randomPulse,
+        randomSine,
+        exponentionalRampDown,
+        noise
