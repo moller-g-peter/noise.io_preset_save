@@ -1,16 +1,21 @@
 body{
   background: grey;
 }
-
 .waveformDropdownWidth,
 .LFOwaveformDropdownWidth{
   width: 100% !important;
 }
-/*.LFOwaveformDropdownWidth{
-  width: 50% !important;
-}*/
-
 .presetInputHeaders{
   color: #9A1717;
-  /*background: red;*/
+}
+.savePresetsWholeForm{
+  background: #686868;
+  margin-left: 20%;
+}
+.saveMenu{
+  /*background: #686868;*/
+  text-align: center;
+}
+.saveMenu a{
+  color: #265D8C;
 }
