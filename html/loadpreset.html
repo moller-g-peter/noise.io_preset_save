@@ -22,11 +22,21 @@
   <!-- BODY TAG -->
   <body>
 
-    <div>
-      <h4><a href="savepreset.html">Save presets</a></h4>
-    </div>
+    <div class="loadMenu">
+      <h4><a href="savepreset.html"><strong>SAVE PRESETS</strong></a></h4>
+    </div> 
 
-    
+    <form class="navbar-form navbar-left loadPresetsWholeForm" role="songPreset">
+      <h3 class="presetInputHeaders">Presets</h3>
+      <div class="form-group form-groupMain">
+        <input type="text" class="form-control" placeholder="Song name" required>
+      </div>
+      <hr>
+      <div class="form-actions savePresetButton">
+        <button type="submit" class="btn btn-default">Load preset</button>
+      </div>
+      <hr>
+    </form>
 
 
 

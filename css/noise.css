@@ -13,12 +13,15 @@ body{
 .presetInputHeaders{
   color: #9A1717;
 }
-.savePresetsWholeForm{
-  /*background: #686868;*/
+.savePresetsWholeForm,
+.loadPresetsWholeForm{
   background: grey;
+}
+.savePresetsWholeForm{
   margin-left: 20%;
 }
-.saveMenu{
+.saveMenu,
+.loadMenu{
   text-align: center;
 }
 .saveMenu a{

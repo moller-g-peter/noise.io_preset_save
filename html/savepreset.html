@@ -39,6 +39,17 @@
             <input type="number" class="form-control" placeholder="Semi" required><br>
             <input type="number" class="form-control" placeholder="Cents" required>
           </div>
+
+
+
+          <div class="form-group form-groupCardinalDirection">
+            <!-- <input type="number" name="quantity" min="1" max="5"> -->
+            <label for="mainPreset">Sound faders (N,E,S,W):</label><br>
+            <input type="number" class="form-control" placeholder="▲ North fader" required><br>
+            <input type="number" class="form-control" placeholder="▶ East fader" required><br>
+            <input type="number" class="form-control" placeholder="▼ South fader" required><br>
+            <input type="number" class="form-control" placeholder="◀ West fader" required>
+          </div>
           <hr>
 
 
@@ -70,33 +81,33 @@
             </select><br>
             <!-- alla namn på vågformer ligger i "waveforms.txt" -->
             <input type="number" class="form-control" placeholder="Ratio" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Detune" required><br>
             <input type="number" class="form-control" placeholder="Brother level" required><br>
             <input type="number" class="form-control" placeholder="Attack" required><br>
             <input type="number" class="form-control" placeholder="Decay" required><br>
             <input type="number" class="form-control" placeholder="Sustain" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
           <div class="form-group form-groupSister">
             <label for="sisterParameters">Sister:</label><br>
             <input type="text" class="form-control" placeholder="Wave" required><br>
             <input type="number" class="form-control" placeholder="Ratio" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Detune" required><br>
             <input type="number" class="form-control" placeholder="Sister level" required><br>
             <input type="number" class="form-control" placeholder="Attack" required><br>
             <input type="number" class="form-control" placeholder="Decay" required><br>
             <input type="number" class="form-control" placeholder="Sustain" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
           <div class="form-group form-groupFilter">
             <label for="filterParameters">Filter:</label><br>
-            <input type="text" class="form-control" placeholder="LowPass" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
-            <input type="text" class="form-control" placeholder="HighPass" required><br>
+            <input type="text" class="form-control" placeholder="EQ1" required><br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
+            <input type="text" class="form-control" placeholder="EQ2" required><br>
             <input type="number" class="form-control" placeholder="Filters 1/2 ratio" required><br>
             <input type="number" class="form-control" placeholder="Cutoff" required><br>
             <input type="number" class="form-control" placeholder="Res" required><br>
@@ -105,7 +116,7 @@
             <input type="number" class="form-control" placeholder="Attack" required><br>
             <input type="number" class="form-control" placeholder="Decay" required><br>
             <input type="number" class="form-control" placeholder="Sustain" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
           <div class="form-group form-groupNoizer">
@@ -114,13 +125,13 @@
             <input type="number" class="form-control" placeholder="Res" required><br>
             <input type="number" class="form-control" placeholder="Noise filter level" required><br>
             <input type="number" class="form-control" placeholder="Limit hard" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Limit lev" required><br>
             <input type="number" class="form-control" placeholder="Noizer level" required><br>
             <input type="number" class="form-control" placeholder="Attack" required><br>
             <input type="number" class="form-control" placeholder="Decay" required><br>
             <input type="number" class="form-control" placeholder="Sustain" required><br>
-            <input type="checkbox" class="form-control" placeholder="on off" required> On/Off<br>
+            <input type="checkbox" class="form-control" placeholder="on off"> On/Off<br>
             <input type="number" class="form-control" placeholder="Release" required>
           </div>
           <hr>
@@ -131,8 +142,8 @@
           <div class="form-group form-groupStereo">
             <input type="number" class="form-control" placeholder="Pan" required><br>
             <input type="number" class="form-control" placeholder="Stereo diff" required><br>
-            <input type="radio" class="form-control" name="leftRight" required> L->R<br>
-            <input type="radio" class="form-control" name="leftRight" required> R->L<br>
+            <input type="radio" class="form-control" name="leftRight" checked> L->R<br>
+            <input type="radio" class="form-control" name="leftRight"> R->L<br>
             <input type="number" class="form-control" placeholder="Low" required><br>
             <input type="number" class="form-control" placeholder="Mid" required><br>
             <input type="number" class="form-control" placeholder="High" required>
@@ -146,8 +157,8 @@
             <label for="noiseParameters">Delay 1:</label><br>
             <input type="number" class="form-control" placeholder="Delay" required><br>
             <input type="number" class="form-control" placeholder="Pan" required><br>
-            <input type="radio" class="form-control" name="delay1" required> Beats<br>
-            <input type="radio" class="form-control" name="delay1" required> Seconds<br>
+            <input type="radio" class="form-control" name="delay1" checked> Beats<br>
+            <input type="radio" class="form-control" name="delay1"> Seconds<br>
             <input type="number" class="form-control" placeholder="Feedback" required><br>
             <input type="number" class="form-control" placeholder="Delay 1 level" required>
           </div>
@@ -155,8 +166,8 @@
             <label for="noiseParameters">Delay 2:</label><br>
             <input type="number" class="form-control" placeholder="Delay" required><br>
             <input type="number" class="form-control" placeholder="Pan" required><br>
-            <input type="radio" class="form-control" name="delay2" required> Beats<br>
-            <input type="radio" class="form-control" name="delay2" required> Seconds<br>
+            <input type="radio" class="form-control" name="delay2" checked> Beats<br>
+            <input type="radio" class="form-control" name="delay2"> Seconds<br>
             <input type="number" class="form-control" placeholder="Feedback" required><br>
             <input type="number" class="form-control" placeholder="Delay 2 level" required>
           </div>
@@ -245,7 +256,7 @@
 
 
 
-          <h3 class="presetInputHeaders">LFO/Axis parameters</h3>
+  <!--         <h3 class="presetInputHeaders">LFO/Axis parameters</h3>
           <div class="form-group">
             <label for="AxisParameters">Axis parameters 1:</label><br>
             <input type="text" class="form-control" placeholder="Synth parameter" required><br>
@@ -258,7 +269,7 @@
             <input type="number" class="form-control" placeholder="Start value" required><br>
             <input type="number" class="form-control" placeholder="End value" required>
           </div>
-          <hr>
+          <hr> -->
 
           <!-- Expo. = exponential... -->
 
@@ -266,9 +277,9 @@
           <div class="form-group">
             <label for="AxisParameters">LFO parameters 1:</label><br>
             <input type="text" class="form-control" placeholder="Parameter to modulate" required><br>
-            <input type="checkbox" class="form-control" name="startOver" required> Start over<br>
-            <input type="radio" class="form-control" name="LFOFreq1" required> Freq Hz<br>
-            <input type="radio" class="form-control" name="LFOFreq1" required> Freq beats<br>
+            <input type="checkbox" class="form-control" name="startOver"> Start over<br>
+            <input type="radio" class="form-control" name="LFOFreq1" checked> Freq Hz<br>
+            <input type="radio" class="form-control" name="LFOFreq1"> Freq beats<br>
             <select class="form-control LFOwaveformDropdownWidth">
               <option value="sine">Sine 1</option>
               <option value="sineDouble">Sine 2</option>
@@ -308,10 +319,39 @@
           <div class="form-group">
             <label for="AxisParameters">LFO parameters 2:</label><br>
             <input type="text" class="form-control" placeholder="Parameter to modulate" required><br>
-            <input type="checkbox" class="form-control" name="startOver" required> Start over<br>
-            <input type="radio" class="form-control" name="LFOFreq2" required> Freq Hz<br>
-            <input type="radio" class="form-control" name="LFOFreq2" required> Freq beats<br>
-
+            <input type="checkbox" class="form-control" name="startOver"> Start over<br>
+            <input type="radio" class="form-control" name="LFOFreq2" checked> Freq Hz<br>
+            <input type="radio" class="form-control" name="LFOFreq2"> Freq beats<br>
+            <select class="form-control LFOwaveformDropdownWidth">
+              <option value="sine">Sine 1</option>
+              <option value="sineDouble">Sine 2</option>
+              <option value="pulse">Exponential ramp down</option>
+              <option value="pulseDouble">Segmental up</option>
+              <option value="triangle">Segmental down</option>
+              <option value="triangleDouble">Catenary up</option>
+              <option value="sawtooth">Catenary down</option>
+              <option value="sawtoothDouble">Sine (low/I)</option>
+              <option value="exponentionalRampUpDown">Sine (low/II)</option>
+              <option value="valve">Exponential ramp up</option>
+              <option value="organ">Exp.ramp up(low/ -)</option>
+              <option value="positiveSine">Exp.ramp dwn(low/ -) </option>
+              <option value="chime">Exp.ramp up(low/ I)</option>
+              <option value="robot">Exp.ramp up(low/ II)</option>
+              <option value="doublePositiveSine">Sawtooth dwn</option>
+              <option value="randomPulse">Sawtooth up</option>
+              <option value="randomSine">Sawtooth down (low)</option>
+              <option value="exponentionalRampDown">Sawtooth up (low)</option>
+              <option value="noise">Sine 3</option>
+              <option value="noise">Sine 4</option>
+              <option value="noise">Square 1</option>
+              <option value="noise">Square 2</option>
+              <option value="noise">Trapezoid up</option>
+              <option value="noise">Trapezoid down</option>
+              <option value="noise">Triangle up (-)</option>
+              <option value="noise">Triangle down (-)</option>
+              <option value="noise">Triangle up (low)</option>
+              <option value="noise">Triangle down (low)</option>
+            </select><br>
 
 
             <input type="number" class="form-control" placeholder="Frequency" required><br>
@@ -320,9 +360,9 @@
           <div class="form-group">
             <label for="AxisParameters">S & H editor:</label><br>
             <input type="text" class="form-control" placeholder="Parameter to modulate" required><br>
-            <input type="checkbox" class="form-control" name="startOver" required> Start over<br>
-            <input type="radio" class="form-control" name="shFreq" required> Freq Hz<br>
-            <input type="radio" class="form-control" name="shFreq" required> Freq beats<br>
+            <input type="checkbox" class="form-control" name="startOver"> Start over<br>
+            <input type="radio" class="form-control" name="shFreq" checked> Freq Hz<br>
+            <input type="radio" class="form-control" name="shFreq"> Freq beats<br>
             <input type="text" class="form-control" placeholder="Frequency" required><br>
             <input type="text" class="form-control" placeholder="S&H impact" required>
           </div>
@@ -330,7 +370,7 @@
 
 
           <div class="form-actions savePresetButton">
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-default">Save preset</button>
           </div>
           <hr>
         </form>
