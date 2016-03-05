@@ -18,7 +18,7 @@ body{
   background: grey;
 }
 .savePresetsWholeForm{
-  margin-left: 20%;
+  margin-left: 28%;
 }
 .saveMenu,
 .loadMenu{
@@ -33,5 +33,9 @@ body{
   text-align: center;
 }
 .noise_main_img{
-  
+  margin-left: 36%;
+}
+img {
+  border: 10px solid white;
+  border-radius: 5px;
 }
