@@ -1,0 +1,39 @@
+GLOBAL
+volume, pan, offset scale, pitch vibrato, pitch shift
+
+
+EFFECTS
+delay1 level, delay1 feedback, delay1 pan,
+delay2 level, delay2 feedback, delay2 pan,
+chorus drywet, chorus modDepth, chorus frq,
+phaser feedback, phaser depth, phaser modulation,
+distortion amount, bitcrusher bits, bitcrusher rate
+
+
+LFO's
+LFO1 impact, LFO1 frquency,
+LFO2 impact, LFO2 frquency,
+sample & hold volume, sample & hold rate
+
+
+SISTER
+sister ratio, sister detune, sister decay, 
+sister to brother, sister self, sister to noizer,
+sister to filter, sister volume
+
+
+BROTHER
+ratio, detune, decay, self, brother, noizer, filter, volume
+
+
+NOIZER
+noizer filter cutoff, noizer filter rezo, noizer filter BW,
+noizer filter level, noizer limiter hardness, 
+noizer limiter level, noizer decay, noizer to brother, 
+noizer to sister, noizer to filter, noizer volume
+
+
+FILTER
+filter balance, filter cutoff, filter rezo, filter BW,
+filter decay, filter to brother, filter to sister,
+filter to noizer, filter volume

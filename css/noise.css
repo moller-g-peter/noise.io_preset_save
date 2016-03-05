@@ -1,6 +1,6 @@
-html{
-  /*background: black;*/
-}
+/*html{
+  background: black;
+}*/
 body{
   background: grey;
   background: url("../img/virus_bg.jpg") no-repeat fixed;
@@ -31,4 +31,7 @@ body{
 }
 .savePresetButton{
   text-align: center;
+}
+.noise_main_img{
+  
 }
