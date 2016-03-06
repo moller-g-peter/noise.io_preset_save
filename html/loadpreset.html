@@ -26,7 +26,7 @@
       <h4><a href="savepreset.html"><strong>SAVE PRESETS</strong></a></h4>
     </div> 
 
-    <form class="navbar-form navbar-left loadPresetsWholeForm" role="songPreset">
+<!--     <form class="navbar-form navbar-left loadPresetsWholeForm" role="songPreset">
       <h3 class="presetInputHeaders">Load presets</h3>
       <div class="form-group form-groupMain">
         <input type="text" class="form-control" placeholder="Song name" required>
@@ -36,6 +36,12 @@
         <button type="submit" class="btn btn-default">Load preset</button>
       </div>
       <hr>
+    </form> -->
+
+    <form method="post" name="tasktitleform" action="">
+      <!-- <div class="title"></div> -->
+      <input class="tasktitle" id="tasktitle" name="tasktitle" type="text" value="Task name..." onfocus="if (this.value == 'Task name...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Task name...';}" />
+      <input class="saveMyPresets" value="Save" type="button" />
     </form>
 
 
@@ -76,14 +82,17 @@
       <p>BROTHER</p>
       <img src="../img/Main/Brother/Noise_brother_on1.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>SISTER</p>
       <img src="../img/Main/Sister/Noise_sister_on1.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>FILTER</p>
       <img src="../img/Main/Filter/Noise_filter_on1.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>NOIZER</p>
       <img src="../img/Main/Noizer/Noise_noizer_on1.jpg"/>
@@ -96,26 +105,32 @@
       <p>FX MAIN</p>
       <img src="../img/FX_main/Noise_fx1.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>DELAY 1</p>
       <img src="../img/FX_main/Delay/Noise_delay_beats.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>DELAY 2</p>
       <img src="../img/FX_main/Delay/Noise_delay_beats.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>CHORUS/FLANGER</p>
       <img src="../img/FX_main/Chorus_flanger/Noise_chorus_flanger_main.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>PHASER</p>
       <img src="../img/FX_main/Phaser/Noise_phaser_main.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>BIT CRUSHER</p>
       <img src="../img/FX_main/Bit_crusher/Noise_bitcrusher_main.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>DISTORTION</p>
       <img src="../img/FX_main/Distortion/Noise_distortion_main.jpg"/>
@@ -128,6 +143,7 @@
       <p>LFO 1</p>
       <img src="../img/LFO/Noise_lfo_beats_start_off.jpg"/>
     </div>
+
     <div class="noise_main_img">
       <p>LFO 2</p>
       <img src="../img/LFO/Noise_lfo_beats_start_off.jpg"/>
@@ -146,6 +162,6 @@
 
 
 
-    <script type="text/javascript" src="js/noise.js"></script>
+    <script type="text/javascript" src="../js/noise.js"></script>
   </body>
 </html>
