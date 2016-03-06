@@ -23,7 +23,7 @@ sister to filter, sister volume
 
 
 BROTHER
-ratio, detune, decay, self, brother, noizer, filter, volume
+ratio, detune, decay, sister, self, noizer, filter, volume
 
 
 NOIZER
