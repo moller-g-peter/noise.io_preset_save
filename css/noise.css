@@ -6,36 +6,57 @@ body{
   background: url("../img/virus_bg.jpg") no-repeat fixed;
   background-size: cover;
 }
+
 .waveformDropdownWidth,
 .LFOwaveformDropdownWidth{
   width: 100% !important;
 }
+
 .presetInputHeaders{
   color: #9A1717;
 }
+
 .savePresetsWholeForm,
 .loadPresetsWholeForm{
   background: grey;
 }
+
 .savePresetsWholeForm{
   margin-left: 28%;
 }
+
+.loadPresetsWholeForm{
+  position: fixed;
+}
+
 .saveMenu,
 .loadMenu{
   text-align: center;
 }
+
 .saveMenu a{
   /*background: grey;*/
   color: #337ab7;
   /*color: white;*/
 }
+
 .savePresetButton{
   text-align: center;
 }
+
 .noise_main_img{
   margin-left: 36%;
 }
+
 img {
-  border: 10px solid white;
-  border-radius: 5px;
+  border: 2px solid #9A1717;
+  /*border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;*/
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+p{
+  color: yellow;
 }
