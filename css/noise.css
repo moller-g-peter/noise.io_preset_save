@@ -7,6 +7,10 @@ body{
   background-size: cover;
 }
 
+.ShEditorHeadline{
+  color: #9A1717;
+}
+
 .waveformDropdownWidth,
 .LFOwaveformDropdownWidth{
   width: 100% !important;
@@ -44,8 +48,11 @@ body{
   text-align: center;
 }
 
-.noise_main_img{
+.noiseImgMain,
+.noiseImg{
   margin-left: 36%;
+  position: relative;
+  /* BEHÖVER FIXA ALLA ANDRA BILDER IN HÄR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 
 img {
@@ -61,6 +68,191 @@ p{
   color: yellow;
 }
 
-.ShEditorHeadline{
-  color: #9A1717;
+.mainPresetName,
+.mainDate,
+.mainPitch,
+.mainLevel,
+.mainBPM,
+.mainGlide,
+.mainSemi,
+.mainCents,
+.cardinalDirectionNorth,
+.cardinalDirectionEast,
+.cardinalDirectionSouth,
+.cardinalDirectionWest,
+.brotherWave,
+.brotherRatio,
+.brotherOnOff,
+.brotherDetune,
+.brotherLevel,
+.brotherAttack,
+.brotherDecay,
+.brotherSustain,
+.brotherSustainOnOff,
+.brotherRelease,
+.sisterWave,
+.sisterRatio,
+.sisterOnOff,
+.sisterDetune,
+.sisterLevel,
+.sisterAttack,
+.sisterDecay,
+.sisterSustain,
+.sisterSustainOnOff,
+.sisterRelease{
+  position: absolute;
+  color: yellow;
 }
+.mainPresetName{
+  top: 74px;
+  left: 70px;
+}
+.mainDate{
+  top: 161px;
+  left: 63px;
+}
+.mainPitch{
+  top: 220px;
+  left: 76px;
+}
+.mainLevel{
+  top: 221px;
+  left: 137px;
+}
+.mainBPM{
+  top: 220px;
+  left: 191px;
+}
+.mainGlide{
+  top: 304px;
+  left: 59px;
+}
+.mainSemi{
+  top: 304px;
+  left: 114px;
+}
+.mainCents{
+  top: 304px;
+  left: 166px;
+}
+.cardinalDirectionNorth,
+.cardinalDirectionEast,
+.cardinalDirectionSouth,
+.cardinalDirectionWest{
+  top: 189px;
+  left: 350px;
+}
+.brotherWave{
+  top: 100px;
+  left: 100px;
+}
+.brotherRatio{
+  top: 190px;
+  left: 73px;
+}
+.brotherOnOff{
+  top: 100px;
+  left: 100px;
+}
+.brotherDetune{
+  top: 190px;
+  left: 194px;
+}
+.brotherLevel{
+  top: 243px;
+  left: 204px;
+}
+.brotherAttack{
+  top: 303px;
+  left: 64px;
+}
+.brotherDecay{
+  top: 303px;
+  left: 112px;
+}
+.brotherSustain{
+  top: 303px;
+  left: 159px;
+}
+.brotherSustainOnOff{
+  top: 100px;
+  left: 100px;
+}
+.brotherRelease{
+  top: 303px;
+  left: 207px;
+}
+.sisterWave{
+  top: 100px;
+  left: 100px;
+}
+.sisterRatio{
+  top: 190px;
+  left: 73px;
+}
+.sisterOnOff{
+  top: 100px;
+  left: 100px;
+}
+.sisterDetune{
+  top: 190px;
+  left: 194px;
+}
+.sisterLevel{
+  top: 243px;
+  left: 204px;
+}
+.sisterAttack{
+  top: 303px;
+  left: 64px;
+}
+.sisterDecay{
+  top: 303px;
+  left: 112px;
+}
+.sisterSustain{
+  top: 303px;
+  left: 159px;
+}
+.sisterSustainOnOff{
+  top: 100px;
+  left: 100px;
+}
+.sisterRelease{
+  top: 303px;
+  left: 207px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
