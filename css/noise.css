@@ -99,7 +99,28 @@ p{
 .sisterDecay,
 .sisterSustain,
 .sisterSustainOnOff,
-.sisterRelease{
+.sisterRelease,
+.filterRatio,
+.filterCutoff,
+.filterRes,
+.filterBW,
+.filterLevel,
+.filterAttack,
+.filterDecay,
+.filterSustain,
+.filterRelease,
+.noizerCutoff,
+.noizerRez,
+.noizerFilterLevel,
+.noizerLimitHard,
+.noizerOnOff,
+.noiseLimitLev
+.noizersLevel,
+.noizerAttack,
+.noizerDecay,
+.noizerSustain,
+.noizerSustainOnOff,
+.noizerRelease{
   position: absolute;
   color: yellow;
 }
@@ -222,9 +243,46 @@ p{
   top: 303px;
   left: 207px;
 }
-
-
-
+.filterRatio{
+  top: 145px;
+  left: 204px;
+}
+.filterCutoff{
+  top: 192px;
+  left: 67px;
+}
+.filterRes{
+  top: 192px;
+  left: 137px;
+}
+.filterBW{
+  top: 192px;
+  left: 207px;
+}
+.filterLevel{
+  top: 243px;
+  left: 204px;
+}
+.filterAttack{
+  top: 303px;
+  left: 64px;
+}
+.filterDecay{
+  top: 303px;
+  left: 112px;
+}
+.filterSustain{
+  top: 303px;
+  left: 159px;
+}
+.filterSustainOnOff{
+  top: 100px;
+  left: 100px;
+}
+.filterRelease{
+  top: 303px;
+  left: 207px;
+}
 
 
 
