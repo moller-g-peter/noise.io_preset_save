@@ -114,7 +114,7 @@ p{
 .noizerFilterLevel,
 .noizerLimitHard,
 .noizerOnOff,
-.noiseLimitLev
+.noizerLimitLev,
 .noizersLevel,
 .noizerAttack,
 .noizerDecay,
@@ -283,8 +283,54 @@ p{
   top: 303px;
   left: 207px;
 }
-
-
+.noizerCutoff{
+  top: 86px;
+  left: 88px;
+}
+.noizerRez{
+  top: 86px;
+  left: 182px;
+}
+.noizerFilterLevel{
+  top: 131px;
+  left: 204px;
+}
+.noizerLimitHard{
+  top: 189px;
+  left: 77px;
+}
+.noizerOnOff{
+  top: 100px;
+  left: 100px;
+}
+.noizerLimitLev{
+  top: 189px;
+  left: 195px;
+}
+.noizersLevel{
+  top: 243px;
+  left: 204px;
+}
+.noizerAttack{
+  top: 303px;
+  left: 64px;
+}
+.noizerDecay{
+  top: 303px;
+  left: 112px;
+}
+.noizerSustain{
+  top: 303px;
+  left: 159px;
+}
+.noizerSustainOnOff{
+  top: 100px;
+  left: 100px;
+}
+.noizerRelease{
+  top: 303px;
+  left: 207px;
+}
 
 
 
