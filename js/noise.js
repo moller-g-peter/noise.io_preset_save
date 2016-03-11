@@ -16,6 +16,8 @@
 		$.ajax({
 			type: "POST",
       url: "noise.php",
+      // async: false,
+      // async är normalt "true" så sätter "false" gör att scriptet väntar tills ajax är klar, sen går vidare i js filen.
       data: dataString,
 
       success: function() {
