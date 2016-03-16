@@ -244,8 +244,10 @@ img{
   left: 350px;
 }
 .brotherWave{
-  top: 100px;
-  left: 100px;
+  width: 100%;
+  top: 60px;
+  left: 87px;
+  z-index: 1000;
 }
 .brotherRatio{
   top: 190px;
@@ -284,8 +286,8 @@ img{
   left: 207px;
 }
 .sisterWave{
-  top: 100px;
-  left: 100px;
+  top: 60px;
+  left: 87px;
 }
 .sisterRatio{
   top: 190px;
@@ -580,3 +582,20 @@ img{
   top: 237px;
   left: 204px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
