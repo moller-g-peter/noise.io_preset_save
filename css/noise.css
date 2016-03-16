@@ -69,9 +69,9 @@ p{
 }
 
 .noiseImgMain{
-  width: 34vw;
-  height: 50vh;
-  background: brown;
+  /*width: 34vw;*/
+  /*height: 50vh;*/
+  /*background: brown;*/
   position: relative;
 }
 .mainDiv1{
@@ -88,7 +88,7 @@ img{
 
 
 
-/*.mainPresetName,*/
+.mainPresetName,
 .mainDate,
 .mainPitch,
 .mainLevel,
@@ -96,10 +96,12 @@ img{
 .mainGlide, 
 .mainSemi,
 .mainCents,
+
 .cardinalDirectionNorth,
 .cardinalDirectionEast,
 .cardinalDirectionSouth,
 .cardinalDirectionWest,
+
 .brotherWave,
 .brotherRatio,
 .brotherOnOff,
@@ -110,6 +112,7 @@ img{
 .brotherSustain,
 .brotherSustainOnOff,
 .brotherRelease,
+
 .sisterWave,
 .sisterRatio,
 .sisterOnOff,
@@ -120,6 +123,7 @@ img{
 .sisterSustain,
 .sisterSustainOnOff,
 .sisterRelease,
+
 .filterRatio,
 .filterCutoff,
 .filterRes,
@@ -129,6 +133,7 @@ img{
 .filterDecay,
 .filterSustain,
 .filterRelease,
+
 .noizerCutoff,
 .noizerRes,
 .noizerFilterLevel,
@@ -141,12 +146,14 @@ img{
 .noizerSustain,
 .noizerSustainOnOff,
 .noizerRelease,
+
 .fxPan,
 .fxStereoDiff,
 .fxLeftRight,
 .fxLow,
 .fxMid,
 .fxHigh,
+
 .delay1Delay,
 .delay1Pan,
 .delay1BeatsSeconds,
@@ -157,16 +164,21 @@ img{
 .delay2BeatsSeconds,
 .delay2Feedb,
 .delay2Level,
+
 .chorusDepth,
 .chorusDelay,
 .chorusFreq,
 .chorusLevel,
+
 .phaserFreq,
 .phaserDepth,
 .phaserLevel,
+
 .bitcrusherBits,
 .bitcrusherSRate,
+
 .distortionLevel,
+
 .lfo1Parameter,
 .lfo1StartOver,
 .lfo1HzBeats,
@@ -176,12 +188,14 @@ img{
 .lfo1Button,
 .lfo2Button,
 .shButton,
+
 .lfo2Parameter,
 .lfo2StartOver,
 .lfo2HzBeats,
 .lfo2Wave,
 .lfo2Freq,
 .lfo2Impact,
+
 .shParameter,
 .shStartOver,
 .shHzBeats,
@@ -190,10 +204,10 @@ img{
   position: absolute;
   color: yellow;
 }
-/*.mainPresetName{
+.mainPresetName{
   top: 74px;
   left: 70px;
-}*/
+}
 .mainDate{
   top: 161px;
   left: 63px;
