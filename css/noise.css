@@ -181,7 +181,12 @@ img{
 .lfo2HzBeats,
 .lfo2Wave,
 .lfo2Freq,
-.lfo2Impact{
+.lfo2Impact,
+.shParameter,
+.shStartOver,
+.shHzBeats,
+.shFreq,
+.shImpact{
   position: absolute;
   color: yellow;
 }
@@ -481,13 +486,6 @@ img{
   top: 155px;
   left: 131px;
 }
-
-
-
-
-
-
-
 .lfo1Parameter{
   top: 70px;
   left: 100px;
@@ -524,12 +522,6 @@ img{
   top: 100px;
   left: 100px;
 }
-
-
-
-
-
-
 .lfo2Parameter{
   top: 70px;
   left: 100px;
@@ -551,6 +543,26 @@ img{
   left: 186px;
 }
 .lfo2Impact{
+  top: 237px;
+  left: 204px;
+}
+.shParameter{
+  top: 70px;
+  left: 100px;
+}
+.shStartOver{
+  top: 100px;
+  left: 100px;
+}
+.shHzBeats{
+  top: 100px;
+  left: 100px;
+}
+.shFreq{
+  top: 182px;
+  left: 136px;
+}
+.shImpact{
   top: 237px;
   left: 204px;
 }
