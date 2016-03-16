@@ -149,9 +149,18 @@ img{
 .fxHigh,
 .delay1Delay,
 .delay1Pan,
-.delayBeatsSeconds,
+.delay1BeatsSeconds,
 .delay1Feedb,
-.delay1Level{
+.delay1Level,
+.delay2Delay,
+.delay2Pan,
+.delay2BeatsSeconds,
+.delay2Feedb,
+.delay2Level,
+.chorusDepth,
+.chorusDelay,
+.chorusFreq,
+.chorusLevel{
   position: absolute;
   color: yellow;
 }
@@ -411,21 +420,22 @@ img{
   top: 238px;
   left: 204px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.chorusDepth{
+  top: 88px;
+  left: 204px;
+}
+.chorusDelay{
+  top: 160px;
+  left: 89px;
+}
+.chorusFreq{
+  top: 160px;
+  left: 183px;
+}
+.chorusLevel{
+  top: 238px;
+  left: 204px;
+}
 
 
 
