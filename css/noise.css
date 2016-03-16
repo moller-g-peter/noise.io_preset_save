@@ -160,7 +160,12 @@ img{
 .chorusDepth,
 .chorusDelay,
 .chorusFreq,
-.chorusLevel{
+.chorusLevel,
+.phaserFreq,
+.phaserDepth,
+.phaserLevel,
+.bitcrusherBits,
+.bitcrusherSRate{
   position: absolute;
   color: yellow;
 }
@@ -436,6 +441,24 @@ img{
   top: 238px;
   left: 204px;
 }
-
-
+.phaserFreq{
+  top: 140px;
+  left: 89px;
+}
+.phaserDepth{
+  top: 140px;
+  left: 183px;
+}
+.phaserLevel{
+  top: 238px;
+  left: 204px;
+}
+.bitcrusherBits{
+  top: 114px;
+  left: 135px;
+}
+.bitcrusherSRate{
+  top: 205px;
+  left: 135px;
+}
 
