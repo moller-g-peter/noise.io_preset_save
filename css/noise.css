@@ -146,7 +146,12 @@ img{
 .fxLeftRight,
 .fxLow,
 .fxMid,
-.fxHigh{
+.fxHigh,
+.delay1Delay,
+.delay1Pan,
+.delayBeatsSeconds,
+.delay1Feedb,
+.delay1Level{
   position: absolute;
   color: yellow;
 }
@@ -366,31 +371,46 @@ img{
   left: 183px;
 }
 .fxLeftRight{
-  top: ;
-  left: ;
+  top: 100px;
+  left: 100px;
 }
 .fxLow{
-  top: 223px;
+  top: 224px;
   left: 71px;
 }
 .fxMid{
-  top: 223px;
+  top: 224px;
   left: 137px;
 }
 .fxHigh{
-  top: 223px;
-  left: 237px;
+  top: 224px;
+  left: 202px;
 }
-
-
-
-
-
-
-
-
-
-
+.delay1Delay,
+.delay2Delay{
+  top: 101px;
+  left: 89px;
+}
+.delay1Pan,
+.delay2Pan{
+  top: 101px;
+  left: 183px;
+}
+.delay1BeatsSeconds,
+.delay2BeatsSeconds{
+  top: 100px;
+  left: 100px;
+}
+.delay1Feedb,
+.delay2Feedb{
+  top: 177px;
+  left: 183px;
+}
+.delay1Level,
+.delay2Level{
+  top: 238px;
+  left: 204px;
+}
 
 
 
