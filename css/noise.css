@@ -165,7 +165,23 @@ img{
 .phaserDepth,
 .phaserLevel,
 .bitcrusherBits,
-.bitcrusherSRate{
+.bitcrusherSRate,
+.distortionLevel,
+.lfo1Parameter,
+.lfo1StartOver,
+.lfo1HzBeats,
+.lfo1Wave,
+.lfo1Freq,
+.lfo1Impact,
+.lfo1Button,
+.lfo2Button,
+.shButton,
+.lfo2Parameter,
+.lfo2StartOver,
+.lfo2HzBeats,
+.lfo2Wave,
+.lfo2Freq,
+.lfo2Impact{
   position: absolute;
   color: yellow;
 }
@@ -461,4 +477,80 @@ img{
   top: 205px;
   left: 135px;
 }
+.distortionLevel{
+  top: 155px;
+  left: 131px;
+}
 
+
+
+
+
+
+
+.lfo1Parameter{
+  top: 70px;
+  left: 100px;
+}
+.lfo1StartOver{
+  top: 100px;
+  left: 100px;
+}
+.lfo1HzBeats{
+  top: 100px;
+  left: 100px;
+}
+.lfo1Wave{
+  top: 100px;
+  left: 100px;
+}
+.lfo1Freq{
+  top: 180px;
+  left: 186px;
+}
+.lfo1Impact{
+  top: 237px;
+  left: 204px;
+}
+.lfo1Button{
+  top: 100px;
+  left: 100px;
+}
+.lfo2Button{
+  top: 100px;
+  left: 100px;
+}
+.shButton{
+  top: 100px;
+  left: 100px;
+}
+
+
+
+
+
+
+.lfo2Parameter{
+  top: 70px;
+  left: 100px;
+}
+.lfo2StartOver{
+  top: 100px;
+  left: 100px;
+}
+.lfo2HzBeats{
+  top: 100px;
+  left: 100px;
+}
+.lfo2Wave{
+  top: 100px;
+  left: 100px;
+}
+.lfo2Freq{
+  top: 180px;
+  left: 186px;
+}
+.lfo2Impact{
+  top: 237px;
+  left: 204px;
+}
