@@ -68,12 +68,32 @@ p{
   color: yellow;
 }
 
-.mainPresetName,
+.noiseImgMain{
+  width: 34vw;
+  height: 50vh;
+  background: brown;
+  position: relative;
+}
+.mainDiv1{
+  display: inline-block;
+  width: 9%;
+  height: 100%;
+  background: yellow;
+  z-index: 100;
+  position: absolute;
+}
+img{
+  max-width: 100%;
+}
+
+
+
+/*.mainPresetName,*/
 .mainDate,
 .mainPitch,
 .mainLevel,
 .mainBPM,
-.mainGlide,
+.mainGlide, 
 .mainSemi,
 .mainCents,
 .cardinalDirectionNorth,
@@ -110,7 +130,7 @@ p{
 .filterSustain,
 .filterRelease,
 .noizerCutoff,
-.noizerRez,
+.noizerRes,
 .noizerFilterLevel,
 .noizerLimitHard,
 .noizerOnOff,
@@ -120,14 +140,20 @@ p{
 .noizerDecay,
 .noizerSustain,
 .noizerSustainOnOff,
-.noizerRelease{
+.noizerRelease,
+.fxPan,
+.fxStereoDiff,
+.fxLeftRight,
+.fxLow,
+.fxMid,
+.fxHigh{
   position: absolute;
   color: yellow;
 }
-.mainPresetName{
+/*.mainPresetName{
   top: 74px;
   left: 70px;
-}
+}*/
 .mainDate{
   top: 161px;
   left: 63px;
@@ -287,7 +313,7 @@ p{
   top: 86px;
   left: 88px;
 }
-.noizerRez{
+.noizerRes{
   top: 86px;
   left: 182px;
 }
@@ -331,7 +357,30 @@ p{
   top: 303px;
   left: 207px;
 }
-
+.fxPan{
+  top: 101px;
+  left: 89px;
+}
+.fxStereoDiff{
+  top: 101px;
+  left: 183px;
+}
+.fxLeftRight{
+  top: ;
+  left: ;
+}
+.fxLow{
+  top: 223px;
+  left: 71px;
+}
+.fxMid{
+  top: 223px;
+  left: 137px;
+}
+.fxHigh{
+  top: 223px;
+  left: 237px;
+}
 
 
 
