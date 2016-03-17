@@ -203,7 +203,14 @@ img{
 .shStartOver,
 .shHzBeats,
 .shFreq,
-.shImpact{
+.shImpact,
+
+.delay1Button,
+.delay2Button,
+.chorusButton,
+.phaserButton,
+.bitcrusherButton,
+.distortionButton{
   position: absolute;
   color: yellow;
 }
@@ -572,16 +579,31 @@ img{
   left: 204px;
 }
 .lfo1Button{
-  top: 100px;
-  left: 100px;
+  /*display: none;*/
+  background-image: url("../img/LFO/LFO_buttons/LFO1_on.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 290px;
+  left: 47px;
 }
 .lfo2Button{
-  top: 100px;
-  left: 100px;
+  /*display: none;*/
+  background-image: url("../img/LFO/LFO_buttons/LFO2_on.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 290px;
+  left: 113px;
 }
 .shButton{
-  top: 100px;
-  left: 100px;
+  /*display: none;*/
+  background-image: url("../img/SH/SH_buttons/SH_on.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 290px;
+  left: 178px;
 }
 /*.lfo2Parameter{
   top: 70px;
@@ -632,7 +654,60 @@ img{
   top: 237px;
   left: 204px;
 }
-
+.delay1Button{
+  /*display: none;*/
+  background-image: url("../img/FX_main/Buttons_on_off/Delay1_on_nonfocus.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 111px;
+  left: 263px;
+}
+.delay2Button{
+  /*display: none;*/
+  background-image: url("../img/FX_main/Buttons_on_off/Delay2_on_nonfocus.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 111px;
+  left: 366px;
+}
+.chorusButton{
+  /*display: none;*/
+  background-image: url("../img/FX_main/Buttons_on_off/ChorusFlanger_on_nonfocus.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 171px;
+  left: 263px;
+}
+.phaserButton{
+  /*display: none;*/
+  background-image: url("../img/FX_main/Buttons_on_off/Phaser_on_nonfocus.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 171px;
+  left: 366px;
+}
+.bitcrusherButton{
+  /*display: none;*/
+  background-image: url("../img/FX_main/Buttons_on_off/Bitcrusher_on_nonfocus.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 231px;
+  left: 263px;
+}
+.distortionButton{
+  /*display: none;*/
+  background-image: url("../img/FX_main/Buttons_on_off/Distortion_on_nonfocus.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 231px;
+  left: 366px;
+}
 
 
 
