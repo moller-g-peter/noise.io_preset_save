@@ -3,7 +3,7 @@
 }*/
 body{
   background: grey;
-  background: url("../img/virus_bg.jpg") no-repeat fixed;
+  /*background: url("../img/virus_bg.jpg") no-repeat fixed;*/
   background-size: cover;
 }
 
@@ -82,9 +82,9 @@ p{
   z-index: 100;
   position: absolute;
 }
-img{
+/*img{
   max-width: 100%;
-}
+}*/
 
 
 
@@ -257,8 +257,8 @@ img{
   /*display: none;*/
   background-image: url("../img/Main/OSC_waveforms/waveGen-01.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 110px;
+  height: 110px;
   top: 63px;
   left: 89px;
   /*z-index: 0;*/
@@ -303,8 +303,8 @@ img{
   /*display: none;*/
   background-image: url("../img/Main/OSC_waveforms/waveGen-01.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 110px;
+  height: 110px;
   top: 63px;
   left: 89px;
   /*z-index: 0;*/
@@ -349,8 +349,8 @@ img{
   /*display: none;*/
   background-image: url("../img/Main/Filter/FILTER_EQ/f_01_lp.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 70px;
+  height: 55px;
   top: 58px;
   left: 49px;
 }
@@ -362,8 +362,8 @@ img{
   /*display: none;*/
   background-image: url("../img/Main/Filter/FILTER_EQ/f_01_lp.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 70px;
+  height: 55px;
   top: 58px;
   left: 168px;
 }
@@ -563,8 +563,8 @@ img{
   /*display: none;*/
   background-image: url("../img/LFO/LFO_waveforms/lfow_blob1.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 60px;
   top: 148px;
   left: 45px;
 }
@@ -582,8 +582,8 @@ img{
   /*display: none;*/
   background-image: url("../img/LFO/LFO_buttons/LFO1_on.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 64px;
+  height: 60px;
   top: 290px;
   left: 47px;
 }
@@ -591,8 +591,8 @@ img{
   /*display: none;*/
   background-image: url("../img/LFO/LFO_buttons/LFO2_on.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 64px;
+  height: 60px;
   top: 290px;
   left: 113px;
 }
@@ -600,8 +600,8 @@ img{
   /*display: none;*/
   background-image: url("../img/SH/SH_buttons/SH_on.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 64px;
+  height: 60px;
   top: 290px;
   left: 178px;
 }
@@ -621,8 +621,8 @@ img{
   /*display: none;*/
   background-image: url("../img/LFO/LFO_waveforms/lfow_blob1.png");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 60px;
   top: 148px;
   left: 45px;
 }
@@ -658,8 +658,8 @@ img{
   /*display: none;*/
   background-image: url("../img/FX_main/Buttons_on_off/Delay1_on_nonfocus.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 98px;
+  height: 55px;
   top: 111px;
   left: 263px;
 }
@@ -667,8 +667,8 @@ img{
   /*display: none;*/
   background-image: url("../img/FX_main/Buttons_on_off/Delay2_on_nonfocus.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 98px;
+  height: 55px;
   top: 111px;
   left: 366px;
 }
@@ -676,8 +676,8 @@ img{
   /*display: none;*/
   background-image: url("../img/FX_main/Buttons_on_off/ChorusFlanger_on_nonfocus.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 98px;
+  height: 55px;
   top: 171px;
   left: 263px;
 }
@@ -685,8 +685,8 @@ img{
   /*display: none;*/
   background-image: url("../img/FX_main/Buttons_on_off/Phaser_on_nonfocus.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 98px;
+  height: 55px;
   top: 171px;
   left: 366px;
 }
@@ -694,8 +694,8 @@ img{
   /*display: none;*/
   background-image: url("../img/FX_main/Buttons_on_off/Bitcrusher_on_nonfocus.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 98px;
+  height: 55px;
   top: 231px;
   left: 263px;
 }
@@ -703,8 +703,8 @@ img{
   /*display: none;*/
   background-image: url("../img/FX_main/Buttons_on_off/Distortion_on_nonfocus.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 98px;
+  height: 55px;
   top: 231px;
   left: 366px;
 }
