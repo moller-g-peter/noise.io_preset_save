@@ -3,7 +3,7 @@
 }*/
 body{
   background: grey;
-  /*background: url("../img/virus_bg.jpg") no-repeat fixed;*/
+  background: url("../img/virus_bg.jpg") no-repeat fixed;
   background-size: cover;
 }
 

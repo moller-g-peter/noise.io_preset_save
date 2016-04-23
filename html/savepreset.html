@@ -25,34 +25,12 @@
         </div>        
 
 
-
-
-        <!-- MAIN SECTION -->
-        <form class="navbar-form navbar-left savePresetsWholeForm" 
-        role="songPreset"
-        method="post"
-        action="noise.php">
-          <h3 class="presetInputHeaders">Presets</h3>
-          <div class="form-group form-groupMain">
-            <!-- <input type="number" name="quantity" min="1" max="5"> -->
-            <label for="mainPreset">Main preset:</label><br>
-            <input type="text" class="form-control songNameInput" placeholder="Song name" required><br>
-            <!-- <input type="text" class="form-control" placeholder="Pitch" required><br>
-            <input type="number" class="form-control" placeholder="Level" required><br>
-            <input type="number" class="form-control" placeholder="BPM" required><br>
-            <input type="number" class="form-control" placeholder="Glide" required><br>
-            <input type="number" class="form-control" placeholder="Semi" required><br>
-            <input type="number" class="form-control" placeholder="Cents" required> -->
-          </div>
-
-
-
-
-          <!-- SAVE PRESETS -->
-          <div class="form-actions savePresetButton">
-            <button type="submit" value="submit" class="btn btn-default saveNoisePreset">Save preset</button>
-          </div>
-          <hr>
+        <form>
+          name : <input type="text" name="songname" id="songName"/>
+          </br>
+          <input type="button" value="Send Comment" id="button">
+          
+          <div id="info"></div>
         </form>
     <script type="text/javascript" src="../js/noise.js"></script>
   </body>
